@@ -70,7 +70,7 @@ def create_norm_histogram(title, your_color, centered_summs, centered_freques):
 
 
 # нахождение выборочных данных
-def get_sample_mean(sample): #выборочное среднее значение
+def get_sample_mean(sample): # выборочное среднее значение
     return st.mean(sample)
 
 def get_sample_median(sample): # медиана
