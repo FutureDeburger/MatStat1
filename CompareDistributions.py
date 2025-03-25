@@ -70,19 +70,19 @@ def create_norm_histogram(title, your_color, centered_summs, centered_freques):
 
 
 # нахождение выборочных данных
-def get_sample_mean(sample):
+def get_sample_mean(sample): #выборочное среднее значение
     return st.mean(sample)
 
-def get_sample_median(sample):
+def get_sample_median(sample): # медиана
     return st.median(sample)
 
-def get_sample_mode(sample):
+def get_sample_mode(sample): # мода
     return st.mode(sample)
 
-def get_sample_variance(sample):
+def get_sample_variance(sample): # выборочная дисперсия
     return st.variance(sample)
 
-def get_sample_standard_deviation(sample):
+def get_sample_standard_deviation(sample): # выборочное среднеквадратичное значение
     return st.stdev(sample)
 
 
