@@ -100,7 +100,10 @@ if __name__ == '__main__':
     print('Медианное значение: ', get_sample_median(general_sums))
     print('Мода: ', get_sample_mode(general_sums))
     print('Выборочная дисперсия: ', get_sample_variance(general_sums))
-    print('Выборочное среднеквадратичное отклонение: ', get_sample_standard_deviation(general_sums), '\n')
+    print('Выборочное среднеквадратическое отклонение: ', get_sample_standard_deviation(general_sums), '\n')
+
+
+    #print(get_sample_variance(general_sums) ** 0.5)
 
 
     # гистограмма с нормальным идеальным распределением
@@ -115,6 +118,6 @@ if __name__ == '__main__':
     print('Медианное значение: ', get_sample_median(norm_distribution))
     print('Мода: ', get_sample_mode(norm_distribution))
     print('Выборочная дисперсия: ', get_sample_variance(norm_distribution))
-    print('Выборочное среднеквадратичное отклонение: ', get_sample_standard_deviation(norm_distribution))
+    print('Выборочное среднеквадратическое отклонение: ', get_sample_standard_deviation(norm_distribution))
 
     plt.show()
